@@ -21,7 +21,7 @@ const Homepage = () => {
                     />
                     <h1 className="home-right-title">Happening now</h1>
                     <h2 className="home-right-subtitle">Welcome to Twitter</h2>
-                    <div className="home-right-btn">
+                    <div className="home-top-right-btn">
                         <button className="btn-primary">Sign up with Google</button>
                         <button className="btn-primary">Sign up with Apple</button>
                         <button className="btn-secondary">Sign up with phone or email</button>
@@ -29,12 +29,9 @@ const Homepage = () => {
                             By signing up, you agree to the<a href="#"/> Terms of Service<a href="#"/>and and{" "} 
                             <a href="#"/> Privacy Policy, including{" "}
                             <a href="#"/> Cookie Use</p>
-                            
-                        <button className="home-right-btn-login">Login</button>
-                        <button className="home-right-btn-signup">Signup</button>
                     </div>
                     <div className="home-right-btn">
-                        <h3>Already have an account?</h3>
+                        <h2>Already have an account?</h2>
                         <button className="btn-secondary">Sign in</button>
                     </div>
                 </div>
